@@ -17,11 +17,7 @@ In case of Windows, output is in win32 directory.
 BUILDING ON UBUNTU
 ==================
 
-sudo apt-get install qt5-qmake
-sudo apt-get install qt5-default
-sudo apt-get install libqt5gui5
-sudo apt-get install qt5-doc
-sudo apt-get install libqt5svg5-dev
+sudo apt-get install qt5-qmake qt5-qmake libqt5gui5 qt5-doc libqt5svg5-dev
  
 qmake -qt=5
 make
